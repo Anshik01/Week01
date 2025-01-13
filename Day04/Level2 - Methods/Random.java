@@ -3,6 +3,7 @@ import java.lang.Math;
 public class Random {
 	
 	static float[] randomValues() {
+		
 		// created four integer variables, and initialized them with random values
 		int first = (int)(Math.random() * 9) + 1;
 		int second = (int)(Math.random() * 9) + 1;
