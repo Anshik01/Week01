@@ -22,6 +22,7 @@ public class Random {
 		float[] randomValues = randomValues();
 		
 		// printing the output
+		
 		System.out.println("Random values average: " + randomValues[0]);
 		System.out.println("Random values minimum: " + (int)randomValues[1]);
 		System.out.println("Random values maximum: " + (int)randomValues[2]);
